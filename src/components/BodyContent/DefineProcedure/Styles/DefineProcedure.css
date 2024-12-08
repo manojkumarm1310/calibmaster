@@ -1,0 +1,158 @@
+.main_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card_container_1 {
+    width: 90%;
+    padding: 1rem 5%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.title {
+    width: 100%;
+    text-decoration: underline;
+}
+
+.input_group {
+    width: 45%;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.eachInput {
+    margin-bottom: 5px;
+}
+
+.card_container_2 {
+    width: 100%;
+    display: flex;
+    align-items: self-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+}
+
+.main_controller_btn_area {
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.child_controller_btn_area {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.each_card {
+    width: 97%;
+    background-color: #fafafa;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.each_card input,
+.each_card select {
+    height: 25px;
+    margin-right: 4px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.each_card input {
+    width: 180px;
+}
+
+.each_card select {
+    width: 115px;
+}
+
+.each_card select {
+    margin: 0;
+    height: 30px;
+}
+
+.dropdownCell {
+    width: 100%;
+}
+
+.eachBottomSection {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.eachBottomSection p {
+    margin: 0;
+}
+
+.table-responsive {
+    display: block;
+    overflow-x: auto;
+}
+
+/* *** Modal Style *** */
+.edit_defined_prodedure_modal {
+    width: 90% !important;
+}
+
+.tableStyle {
+    border-collapse: collapse !important;
+}
+
+.tableStyle table,
+.tableStyle th,
+.tableStyle td {
+    border: 1px solid black;
+}
+
+.tableStyle th input,
+.tableStyle tr td input {
+    border: none;
+}
+
+.tableStyle tr td {
+    text-align: left;
+}
+
+.tableStyle tr td p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.tableStyle tr td span {
+    margin: 0;
+    font-size: 14px;
+}
+
+.remarks_section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 1rem;
+}
+
+.file_selector_width>div{
+    flex-direction: row !important;
+}
+
+.close-modal {
+    position: absolute !important;
+    right: 10px;
+    top: 8px;
+}

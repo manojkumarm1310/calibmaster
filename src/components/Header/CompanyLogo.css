@@ -1,0 +1,9 @@
+.company__logo__container {
+  margin: 0 1rem;
+}
+
+.company__logo {
+  width: 12rem;
+  height: 3.5rem;
+  object-fit: contain;
+}
